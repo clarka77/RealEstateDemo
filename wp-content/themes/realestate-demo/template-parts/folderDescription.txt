@@ -1,0 +1,9 @@
+template-parts
+
+The template-parts folder contains the theme’s template pieces. It is structured in other folders for more clarity and structure. You can create or edit your own folders if needed. Just make sure you update the folder path in the files when you call a template.
+https://developer.wordpress.org/reference/functions/get_template_part/
+
+
+When you use get_header() an optional parameter is the name of the header, you can see this in: https://developer.wordpress.org/reference/functions/get_header/
+
+You need to create, for instance, header-another.php and put the code in it, after this only need calls get_header('another').

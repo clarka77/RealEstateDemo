@@ -1,0 +1,21 @@
+Plugins that are NOT Slow or Resource Hogs
+
+Lightweight Plugin Alternatives
+
+    SEO – Rank Math (remember to disable unused modules).
+    Backups – UpdraftPlus.
+    Comments – native comments.
+    Sliders – Soliloquy or MetaSlider.
+    Gallery – Gutenberg Gallery or Meow Gallery.
+    Analytics – Google Analytics + Google Search Console (ideally no plugins).
+    Social Sharing – Grow Social is a fast social sharing plugin with less requests.
+    Theme/Page Builder – GeneratePress, Blocksy, Kadence, Oxygen, or Genesis.
+    No plugin – many things can be coded manually. Coding your header/footer in CSS instead of page builders, disabling Heartbeat, limiting autosaves/post revisions, etc.
+
+WP-Optimize shows which plugins add the most database overhead. For example, I saw modules from Rank Math were adding lots of bloat, so I disabled those I didn’t need. You may also find old plugin tables in your database, in which case you’ll see a “remove” button where you can delete the table using WP-Optimize. This happens when you install/delete plugins a lot.
+
+Forms => It’s an embedded form from Dubsado, otherwise Gravity Forms and WP Forms are both good.
+
+Security => Cloudflare Firewall. Can also try Limit Login Attempts, Two-Factor, and Blackhole For Bad Bots.
+
+

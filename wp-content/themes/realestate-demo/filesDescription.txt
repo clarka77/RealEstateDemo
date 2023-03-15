@@ -1,0 +1,95 @@
+Files
+*********
+
+404.php
+
+File Template for displaying Error 404 pages.
+https://codex.wordpress.org/Creating_an_Error_404_Page
+
+archive.php
+
+File Template for displaying archive pages. You can display archive title (tag, category, date-based, or author archives).
+There are other archive files you can use, see the archive structure: https://developer.wordpress.org/files/2014/10/Screenshot-2019-01-23-00.20.04.png
+https://developer.wordpress.org/themes/basics/template-hierarchy/
+
+comments.php
+
+Template File that displays comments in your theme.
+https://developer.wordpress.org/themes/template-files-section/partial-and-miscellaneous-template-files/comment-template/
+
+footer.php
+
+File Template for displaying the Footer. It is called when using the wp_footer().
+https://developer.wordpress.org/themes/basics/template-hierarchy/
+
+front-page.php
+
+If there is a front-page.php file in the theme, this template is always used for the start page. Without the template file, either home.php (blog index) or page.php (static start page) is loaded as normal.
+https://developer.wordpress.org/themes/basics/template-hierarchy/#home-page-display
+
+functions.php
+
+In WordPress, functions.php or the theme functions file is a template included in WordPress themes. It acts like a plugin for your WordPress site that’s automatically activated with your aIn WordPress, functions.php or the theme functions file is a template included in WordPress themes. It acts like a plugin for your WordPress site that’s automatically activated with your current theme.
+https://developer.wordpress.org/themes/basics/theme-functions/
+
+header.php
+
+This is the template that displays all of the sections and everything up until main. It is called when using the wp_header().
+https://developer.wordpress.org/themes/basics/template-hierarchy/
+
+index.php
+
+Display a list of posts in excerpt or full-length form. Choose one or the other as appropriate. Include wp_link_pages() to support navigation links within posts.
+https://developer.wordpress.org/themes/basics/template-hierarchy/
+
+page.php
+
+File Template for displaying single pages.
+https://developer.wordpress.org/themes/basics/template-hierarchy/#single-page
+
+rtl.css
+
+Adding support for language written in a Right-To-Left (RTL) direction.
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+screenshot.png
+
+The new WordPress screenshot size for themes is 1200×900px. The official WordPress Codex or WordPress Docs recommends that during theme development you must create a screenshot for your theme. Replace this file in order to change your Wordpress Screenshot.
+https://codex.wordpress.org/Theme_Development#Screenshot
+
+search.php
+
+File template for displaying search results pages. Display a list of posts in excerpt or full-length form. Choose one or the other as appropriate.
+https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
+
+searchform.php
+
+File Template for searchform.php template. It is Used any time that get_search_form() is called.
+https://developer.wordpress.org/reference/functions/wp_unique_id/
+https://developer.wordpress.org/reference/functions/get_search_form/
+
+sidebar.php
+
+The Theme should be widgetized as fully as possible. Any area in the layout that works like a widget (tag cloud, blogroll, list of categories) or could accept widgets (sidebar) should allow widgets.
+You can need to use multiple files to organize multiple sidebars.
+https://developer.wordpress.org/themes/functionality/sidebars/
+
+single.php
+
+File Template for displaying single posts.
+https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
+
+style.css
+
+WordPress uses the header comment section of a style.css to display information about the theme in the Appearance dashboard panel (Themes).
+https://developer.wordpress.org/themes/basics/main-stylesheet-style-css/
+
+**********
+Sources
+
+https://developer.wordpress.org/themes/basics/organizing-theme-files/
+https://developer.wordpress.org/themes/basics/template-hierarchy/
+https://codex.wordpress.org/Theme_Development
+https://florianbrinkmann.com/en/organizing-files-functions-wordpress-theme-4190/
+
+

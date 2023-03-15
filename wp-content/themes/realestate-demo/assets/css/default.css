@@ -1,0 +1,138 @@
+/*Blank CSS*/
+
+/* Contact Page */
+.wpforms-title {
+    text-transform: uppercase!important;
+    margin-bottom: 1.5rem!important;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-weight: 600;
+    font-size: 1.2rem!important;
+}
+.wpforms-submit {
+    color: #ffffff!important;
+	background: #FF385C!important;
+	border: 1px solid #FF385C!important;
+	-webkit-transition: all .5s ease!important;
+	transition: all .5s ease!important;
+	padding: .5rem 1rem!important;
+	font-size: 1.25rem!important;
+	line-height: 1.5!important;
+	border-radius: .3rem!important;
+}
+.wpforms-submit:hover {
+	background: #fff!important;
+	color: #121B22!important;
+	border: 1px solid #FF385C!important;
+}
+
+.submit {
+	background: #FF385C!important;
+	cursor: pointer!important;
+	font-size: 16px!important;
+	border: none!important;
+	-webkit-transition: all .5s ease!important;
+	transition: all .5s ease!important;
+    margin-top: .5rem !important;
+    padding: .5rem 1rem!important;
+    line-height: 1.5!important;
+    border-radius: .3rem!important;
+    color: #fff!important;
+    display: inline-block!important;
+    font-weight: 400!important;
+    text-align: center!important;
+    vertical-align: middle!important;
+    user-select: none!important;
+}
+
+.submit:hover {
+    background: #121B22!important;
+    color: #fff!important;
+}
+
+/* Login Page */
+#user7, #pass7 {
+	padding: .7rem!important;
+	border: 1px solid #dddddd!important;
+	display: block!important;
+	width: 100%!important;
+	height: calc(1.5em + .75rem + 2px)!important;
+	font-size: 1rem!important;
+	font-weight: 400!important;
+	line-height: 1.5!important;
+	color: #495057!important;
+	background-color: #fff!important;
+	background-clip: padding-box!important;
+	border-radius: .25rem!important;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out!important;
+}
+
+#user7:focus, #pass7:focus {
+	color: #495057!important;
+	background-color: #fff!important;
+	border-color: #80bdff!important;
+	outline: 0!important;
+	box-shadow: 0 0 0 .2rem rgba(0,123,255,.25)!important;
+}
+
+label[for=user7]:after {
+    content: "Email";
+}
+
+label[for=pass7]:after {
+    content: "Password";
+}
+
+#wp3-submit {
+    display: block!important;
+    width: 100%!important;
+    text-decoration: none!important;
+    text-align: center!important;
+    margin-bottom: 5px!important;
+    border-radius: 25px !important;
+    border: none!important;
+    background: #FF385C!important;
+    cursor: pointer!important;
+    padding: 15px 30px!important;
+    color: #fff!important;
+    transition: all .3s ease-in-out!important;
+}
+
+#wp3-submit:hover {
+    background: #121B22!important;
+    color: #fff!important;
+}
+
+/* Front Page */
+#wpforms-submit-86 {
+	display: block!important;
+	width: 100%!important;
+	background: #FF385C!important;
+	cursor: pointer!important;
+	color: #fff!important;
+	text-transform: uppercase!important;
+	font-weight: 600!important;
+	margin-top: 5px!important;
+	height: 50px!important;
+	line-height: 50px!important;
+	padding: 0!important;
+	font-size: 14px!important;
+	border: none!important;
+	border-radius: 5px!important;
+    text-align: center!important;
+}
+
+#wpforms-86-field_1, #wpforms-86-field_6, #wpforms-86-field_4, #wpforms-86-field_5 {
+	border: 1px solid #d8d8d8!important;
+	border-radius: 8px!important;
+	background: #f8f8f8!important;
+
+}
+
+#wpforms-86-field_1:focus, #wpforms-86-field_6:focus, #wpforms-86-field_4:focus, #wpforms-86-field_5:focus {
+	color: #495057!important;
+	background-color: #fff!important;
+	border-color: #80bdff!important;
+	outline: 0!important;
+	box-shadow: 0 0 0 .2rem rgba(0,123,255,.25)!important;
+}
